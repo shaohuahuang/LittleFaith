@@ -36,32 +36,34 @@ public final class R {
         public static final int list_item_background=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0019;
+        public static final int action_settings=0x7f0a001b;
+        public static final int alert=0x7f0a0018;
         public static final int bibleread=0x7f0a0004;
-        public static final int check=0x7f0a0018;
-        public static final int date=0x7f0a0015;
-        public static final int date_icon=0x7f0a0016;
+        public static final int check=0x7f0a001a;
+        public static final int date=0x7f0a0016;
+        public static final int date_icon=0x7f0a0017;
         public static final int dawnprayer=0x7f0a0000;
-        public static final int department=0x7f0a000e;
+        public static final int department=0x7f0a000f;
+        public static final int emailreg=0x7f0a000b;
         public static final int exercise=0x7f0a0006;
-        public static final int gridview=0x7f0a0014;
-        public static final int header=0x7f0a0010;
+        public static final int gridview=0x7f0a0015;
+        public static final int header=0x7f0a0011;
         public static final int keepawake=0x7f0a0001;
         public static final int login=0x7f0a000a;
-        public static final int next=0x7f0a0013;
-        public static final int passconfirm=0x7f0a000d;
+        public static final int next=0x7f0a0014;
+        public static final int passconfirm=0x7f0a000e;
         public static final int password=0x7f0a0008;
-        public static final int passwordreg=0x7f0a000c;
+        public static final int passwordreg=0x7f0a000d;
         public static final int praise=0x7f0a0003;
         public static final int prayer=0x7f0a0002;
-        public static final int previous=0x7f0a0011;
+        public static final int previous=0x7f0a0012;
         public static final int register=0x7f0a0009;
-        public static final int registerdone=0x7f0a000f;
-        public static final int result=0x7f0a0017;
+        public static final int registerdone=0x7f0a0010;
+        public static final int result=0x7f0a0019;
         public static final int sleep=0x7f0a0005;
-        public static final int title=0x7f0a0012;
+        public static final int title=0x7f0a0013;
         public static final int username=0x7f0a0007;
-        public static final int usernamereg=0x7f0a000b;
+        public static final int usernamereg=0x7f0a000c;
     }
     public static final class layout {
         public static final int activity_faith_check=0x7f030000;
@@ -70,6 +72,7 @@ public final class R {
         public static final int activity_results=0x7f030003;
         public static final int calendar=0x7f030004;
         public static final int calendar_item=0x7f030005;
+        public static final int dialog=0x7f030006;
     }
     public static final class menu {
         public static final int actionbar=0x7f090000;

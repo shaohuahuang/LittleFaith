@@ -5,6 +5,11 @@
     android:layout_height="fill_parent">
 
     <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="email" />
+    <EditText
         android:id="@+id/usernamereg"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
