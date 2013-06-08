@@ -59,6 +59,7 @@ public class DataPost {
     			
     			stringGet = sb.toString();  
     			Log.d("test","is posting");
+    			Log.d("test","is posting"+stringGet);
     			JsonGet = new JSONObject(sb.toString());//things get from django server  
     	
         }}

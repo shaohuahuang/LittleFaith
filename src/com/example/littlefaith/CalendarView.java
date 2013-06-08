@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -39,8 +40,8 @@ public class CalendarView extends Activity {
 	    gridview.setAdapter(adapter);
 	    
 	    handler = new Handler();
-	    handler.post(calendarUpdater);
-	    
+	    handler.post(calendarUpdater); 
+		
 	    TextView title  = (TextView) findViewById(R.id.title);
 	    title.setText(android.text.format.DateFormat.format("MMMM yyyy", month));
 	    

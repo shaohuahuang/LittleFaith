@@ -3,39 +3,88 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+    
     <CheckBox android:id="@+id/dawnprayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dawn Prayer"
         android:onClick="onCheckboxClicked"/>
+    
+    
+    <CheckBox android:id="@+id/dawnservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dawn service"
+        android:onClick="onCheckboxClicked"/>
+    
+    <CheckBox android:id="@+id/exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise Half an Hour"
+        android:onClick="onCheckboxClicked"/>  
+        
     <CheckBox android:id="@+id/keepawake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Keep Awake in the Morning"
         android:onClick="onCheckboxClicked"/>
-    <CheckBox android:id="@+id/prayer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pray three times"
-        android:onClick="onCheckboxClicked"/>
+    
     <CheckBox android:id="@+id/praise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sing Three Praises"
-        android:onClick="onCheckboxClicked"/>
+        android:onClick="onCheckboxClicked"/> 
+    
     <CheckBox android:id="@+id/bibleread"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A Chapter of Bible"
         android:onClick="onCheckboxClicked"/>
-    <CheckBox android:id="@+id/sleep"
+    
+    
+    <CheckBox android:id="@+id/reply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sleep Before 11pm"
+        android:text="Reply to message"
         android:onClick="onCheckboxClicked"/>
-    <CheckBox android:id="@+id/exercise"
+    
+    
+    <CheckBox android:id="@+id/revelation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exercise Half an Hour"
+        android:text="Read revelation"
+        android:onClick="onCheckboxClicked"/>
+    
+    
+    <CheckBox android:id="@+id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attend service"
+        android:onClick="onCheckboxClicked"/>
+    
+    
+    <CheckBox android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morning messages"
+        android:onClick="onCheckboxClicked"/>
+    
+    
+    <CheckBox android:id="@+id/buddyprayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buddy prayer"
+        android:onClick="onCheckboxClicked"/>
+    
+    <CheckBox android:id="@+id/proverbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read proverbs"
+        android:onClick="onCheckboxClicked"/> 
+    
+    <CheckBox android:id="@+id/tidy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clean your room"
         android:onClick="onCheckboxClicked"/>
 </LinearLayout>
